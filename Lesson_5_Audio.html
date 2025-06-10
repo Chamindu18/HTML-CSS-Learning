@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Adding Audio Files</title>
+    </head>
+    
+    <body><!--to add audio use <audio>-->
+        <p>
+            <h2>Interliked</h2>
+        </p>
+        <audio controls><!--Use <source src=""> to add audio src-->
+            <!--audio cntrols = for audio to show up in the webpage-->
+            <!--audio controls autoplay = to play the audio automatically-->
+            <!--audio controls autoplay muted = song is playing but its muted untill we unmute it-->
+            <!--audio controls loop = loop the playing song-->
+            <source src="music/smpl3.mp3" type="audio/mp3">
+            <!--type = to let the webbrowser know the type of the audio-->
+            <!--we can have a backup of the audio as wav file and we have to have a that type of audio in our music folder-->
+        </audio>
+        
+        <br>
+        <p>
+            <h2>Not Enough</h2>
+        </p>
+        <audio controls>
+            <source src="music/smpl1.mp3">
+        </audio>
+        
+        <br>
+        <p>
+            <h2>Warriyo Mortals</h2>
+        </p>
+        <audio controls>
+            <source src="music/smpl2.mp3">
+        </audio>
+    </body>
+</html>

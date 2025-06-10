@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button Function in HTML</title>
+    </head>
+
+    <body>
+        
+        <!--<button></button> tag to create buttons-->
+        <!--Change font size using style attribute-->
+        <!-- use ; to seperate each property -->
+
+        <a href="Lesson_11_Tables.html"
+        target="_blank">
+        <button style="font-size:25px; background-color:cyan; 
+        border-radius:25px; color:green">Show Tables</button>
+        </a>
+
+        <br>
+        <br>
+
+        <!--if we want to execute javascript code use <scipt></script> tags-->
+        <button onclick="dosomething()" style="font-size:25px; background-color:tomato; 
+        border-radius:25px; color:whitesmoke">Touch me</button>
+
+        <p id="greeting">Hello</p>
+        
+        <script>
+            function dosomething(){
+                document.getElementById("greeting").innerHTML = "GoodBye";
+            }
+        </script>
+    </body>
+</html>

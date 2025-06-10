@@ -1,0 +1,26 @@
+body{
+    background-color:black;
+}
+h3{
+    color:white;
+    text-decoration:underline;
+    text-decoration-color:red;
+}
+#p1{
+    color:rgb(155, 146, 177);
+}
+#p2{
+    color:rgb(129, 103, 103);
+}
+.odd{
+    color:bisque;
+}
+.even{
+    color:cadetblue;
+}
+#p7{
+    color:lightcoral
+}
+#p8{
+    color:lightgreen
+}

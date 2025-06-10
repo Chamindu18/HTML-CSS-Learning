@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adding Videos</title>
+    </head>
+
+    <body><!-- to include videos we need <video></video> tags-->
+        <!--we can adjust the size with height and width(use pixel at the end: 500px)-->
+        <!--use control to have the control in the video-->
+        <!--you can autoplay, muted & loop feature to the video-->
+        <!--<video src = "videos/sample1.mp4" width="500px" controls autoplay muted loop>-->
+        <!--if we are adding sources above statement can be written as shown below-->
+        <!--Also we can turn our video into hyperlink-->
+
+        <a href="https://en.wikipedia.org/wiki/Street"
+        target="_blank"
+        title="Wanna see some STREETs!">
+        <video width="500" controls autoplay muted loop>
+            <!--We can use <source src> element to add source of the same video just in case-->
+            <source src="videos/sample1.mp4" type="video/mp4">
+            <source src="videos/sample2.webm" type="video/webm">
+        </video>
+        </a>
+        
+
+    </body>
+</html>

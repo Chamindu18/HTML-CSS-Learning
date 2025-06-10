@@ -1,0 +1,17 @@
+h1{
+    font-family: verdana, arial;
+    font-size:40px;
+    font-weight:bold;
+    font-style:italic;
+}
+h2{
+    font-family:Roboto;
+}
+h3{
+    font-family:"Open Sans";
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size:18px;
+    font-weight:bold;
+}

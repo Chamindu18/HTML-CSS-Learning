@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to CSS - External CSS</title>
+
+        <!-- <link> tag used to connect HTML to external files like CSS -->
+        <!-- Used inside the <head> tag -->
+        <!-- we can use same style sheet to style multiple webpages  -->
+        <!-- but the webpages will look same since the style will apply same-->
+        <!-- Or we can add 'id' to tags and style them seperatly in the same style sheet -->
+        
+        <link rel="stylesheet" href="Lesson_15_Intro_CSS_ExternalCSS_StyleSheet.css">
+        
+    </head>
+
+    <body>
+
+        <h3>This is External CSS</h3>
+        <!-- we can add the underline from the stylesheet, no need to use <u></u> tag here -->
+        <!-- to change the underline color in stylesheet inside h3 use text-decoration: underline;,
+         text-decoration-color: red; -->
+
+        <!-- to seperately style the paragraphs we can give 'id' to <p> tags -->
+        <!-- in style sheet we can style paragraph using this id -->
+        <!-- Use '#' => #p1 then we can style id='p1' paragraph -->
+        <!-- class attribute let us group elements together -->
+        <!-- we can style using that class in stylesheet -->
+        <!-- to style = .(ClassName) , Ex: .odd{} -->
+        
+        <p id="p1">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Non reiciendis hic quae 
+            fugiat totam exercitationem voluptatibus omnis. 
+            Deserunt, qui harum. Aliquam, molestias eligendi 
+            odio quibusdam pariatur culpa laboriosam nesciunt
+            nobis?</p>
+
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Eius, tempore? Nobis dignissimos sapiente 
+            sunt nihil cumque ea quam eos. Error dolores 
+            maiores assumenda esse! Earum accusamus accusantium 
+            quaerat fugit minus!</p>
+
+        <p id="p3" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Eius, tempore? Nobis dignissimos sapiente 
+            sunt nihil cumque ea quam eos. Error dolores 
+            maiores assumenda esse! Earum accusamus accusantium 
+            quaerat fugit minus!</p>
+
+        <p id="p4" class="even">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Eius, tempore? Nobis dignissimos sapiente 
+            sunt nihil cumque ea quam eos. Error dolores 
+            maiores assumenda esse! Earum accusamus accusantium 
+            quaerat fugit minus!</p>
+
+        <p id="p5" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Eius, tempore? Nobis dignissimos sapiente 
+            sunt nihil cumque ea quam eos. Error dolores 
+            maiores assumenda esse! Earum accusamus accusantium 
+            quaerat fugit minus!</p>
+
+        <p id="p6" class="even">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Eius, tempore? Nobis dignissimos sapiente 
+            sunt nihil cumque ea quam eos. Error dolores 
+            maiores assumenda esse! Earum accusamus accusantium 
+            quaerat fugit minus!</p>
+
+    </body>
+</html>

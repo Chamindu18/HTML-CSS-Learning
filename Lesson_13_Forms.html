@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating Forms in HTML</title>
+    </head>
+
+    <body>
+
+        <!-- Use <form></form> tags to create forms -->
+        <!-- This have few attributes -->
+        <!-- action = The URL or file where the form data should be sent -->
+        <!-- method = GET or post (most common methods to send data)-->
+
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <!-- Create some elements -->
+            <!-- <input> = A self closing tag to create a text box -->
+            <!-- We can specify it with type attribute -->
+            <!-- <label></label> This tag is used to define a label for an <input> element -->
+            <!-- for attribute in <label> tag links the label to a specific form element-->
+            <!-- enctype = encoding type, tells browser how to encode the form data when sending it to the server -->
+            <!-- enctype used when sending a large file -->
+            
+            <label for="username">Username :</label>
+            <input type="text" id="username" minlength="6" 
+            maxlength="15" placeholder="Satoru Gojo" required>
+            <!-- required attribute = makes a field mandatory -->
+            <!-- id = unique identifier(used with labels) -->
+            <!-- minlength = Minimum number of characters -->
+            <!-- maxlength = Maximum number of characters -->
+            <!-- placeholder = shows gray text as a hint inside the input -->
+            
+            <br>
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" minlength="6" 
+            maxlength="15" required>
+            <!-- password attribut = Hides the input -->
+            
+            <br>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="fake123@gmail.com" required>
+            <!-- email = validates for email format-->
+
+            <br>
+            <br>
+            <label for="phone">Phone no. :</label>
+            <input type="tel" id="phone" placeholder="07x-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <!-- tel = for phone numbers -->
+            <!-- pattern attribut = specifies a regex pattern the input must match-->
+            
+            <br>
+            <br>
+            <label for="bday">DOB :</label>
+            <input type="date" id="bday">
+            <!-- date = date picker -->
+
+            <br>
+            <br>
+            <label for="quantity">Quantity :</label>
+            <input type="number" id="quantity" min="0" max="99" value="1">
+            <!-- number = only allows numbers -->
+            <!-- set limits with 'min' & 'max' attributes -->
+            <!-- value = to add a default value-->
+
+            <br>
+            <br>
+            <label for="title">Title :</label>
+
+            <label for="Mr">Mr</label>
+            <input type="radio" id="Mr" value="Mr" name="title">
+            
+            <label for="Mrs">Mrs</label>
+            <input type="radio" id="Mrs" value="Mrs" name="title">
+
+            <label for="Miss">Miss</label>
+            <input type="radio" id="Miss" value="Miss" name="title">
+
+            <!-- using 'name' attribute we can group them together -->
+            <!-- value attribute = this will get submitted when the form is submitted-->
+
+            <br>
+            <br>
+            <label for="payment">Payment :</label>
+            <!-- <select> element used to create a dropdown menu-->
+            <!-- Each item inside the lisy defined using <option> -->
+            <select id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="giftcard">Giftcard</option>
+            </select>
+
+            <br>
+            <br>
+            <!-- checkbox = let user to select one or more options from a set-->
+            <label for="subscribe">Subscribe :</label>
+            <input type="checkbox" id="subscribe">
+            <!-- checkbox = multiple selections-->
+
+            <br>
+            <br>
+            <label for="comment">Comment :</label>
+            <textarea id="comment" rows="5" cols="30"></textarea>
+            <!-- <textarea></textarea> tag used to create a multi-line text input field -->
+            <!-- rows = number of text rows(height) -->
+            <!-- cols = width in character colums -->
+            
+            <br>
+            <br>
+            <label for="file">File :</label>
+            <input type="file" id="file" accept="image/png, image/jpeg" >
+            <!-- file = upload files -->
+        <!-- accept = to limit the file type-->
+            
+                      
+            <br>
+            <br>
+            <input type="reset">
+            <!-- reset attribute = reset the data entered-->
+
+            <!--To input data use submit as the data type in <input> tag-->
+            <input type="submit">
+
+
+
+        </form>
+
+    </body>
+</html>

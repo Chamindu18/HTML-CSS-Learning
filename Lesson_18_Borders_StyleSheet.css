@@ -1,0 +1,17 @@
+h1{
+    border-style: solid;
+    border-width: 5px;
+    border-color: hsl(126, 68%, 62%);
+    border-radius: 30px
+}
+h2{
+    border: 3px solid rgb(84, 118, 232);
+    border-radius: 20px;
+}
+p{
+    border-bottom:3px solid rgb(202, 74, 74);
+    border-top: 3px dashed rgb(225, 106, 126);
+    border-left:5px dotted rgb(223, 223, 50);
+    border-right: 6px double purple;
+    border-radius:10px;
+}

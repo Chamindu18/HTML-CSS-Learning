@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(41,41,41);
+}
+h3{
+    color:white;
+}
+#p1{
+    color:tomato;
+}
+#p2{
+    color:rgb(102, 222, 255);
+}
+#p3{
+    color:#88ed72;
+}
+#p4{
+    color:hsl(300, 48%, 75%);
+}
