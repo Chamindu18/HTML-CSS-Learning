@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color:gray;
+    height:100vh;
+
+}
+.box1{
+    background-color:lightgreen;
+    border:1px dotted;
+    height:auto;
+    width:400px;
+    padding:25px;
+    text-align:center;
+    float:left;
+}
+.box2{
+    background-color:tomato;
+    border:1px solid;
+    height:auto;
+    width:350px;
+    padding:25px;
+    text-align:center;
+    float:left;
+
+    min-width:75%;
+    max-height:75%;
+}
