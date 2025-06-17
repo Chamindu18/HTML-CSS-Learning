@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+}
+main{
+    margin-left:20px;
+    margin-right:20px;
+}
+h1{
+    text-align:center;
+    color:rgb(92, 159, 92);
+    font-size:3em;
+    font-family:arial;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:gray;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+.navbar a{
+    font-family:arial;
+    text-decoration:none;
+    color:white;
+    padding:25px;
+    display:block;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color:rgb(181, 179, 179);
+}
+.navbar a{
+    float:left;
+}
+
