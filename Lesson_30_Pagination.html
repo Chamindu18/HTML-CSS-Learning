@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagination in HTML</title>
+        <link rel="stylesheet" href="Lesson_30_Pagination_StyleSheet.css">
+    </head>
+
+    <body>
+
+        <!-- pagination = method by which a document is seperated into pages,
+                            and numbers are given -->
+        <!-- This will help to switch between pages -->
+
+        <h1>Pagination in HTML</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fugit ad illum vitae quas minus suscipit officia, velit 
+            molestias quisquam quasi cumque magnam a necessitatibus 
+            asperiores eveniet voluptatem dolore magni eum!</p>
+
+        <!-- Use a <div> element -->
+        <div class="pagination">
+            <a href=""><</a>
+            <a href="Lesson_30_Pagination.html" class="active">1</a>
+            <a href="Lesson_29_Pseudo_Elements.html">2</a>
+            <a href="Lesson_28_Pseudo_Class.html">3</a>
+            <a href="Lesson_27_Combinators.html">4</a>
+            <a href="Lesson_26_Background_Images.html">5</a>
+            <a href="Lesson_29_Pseudo_Elements.html">></a>
+        </div>
+
+        <!-- .pagination{}  style the pagination class -->
+        <!-- .pagination a{} style any 'a' elements in pagination class-->
+        <!-- display:inline-block  =  <div>s will appear side by side and 
+             we can apply width and height -->
+        
+        <!-- .pagination a.active{}  = 'a' elements in pagination class then find 'active' classes-->
+        <!-- .pagination a:hover:not(.active){}  = select pagination class with any 'a' elements & find any elements not within 'active' class -->
+    </body>
+</html>

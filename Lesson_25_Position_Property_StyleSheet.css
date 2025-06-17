@@ -1,0 +1,35 @@
+#box1{
+    width:200px;
+    height:200px;
+    background-color:rgb(53, 39, 237);
+    border-radius:170px;
+    position:fixed;
+    top:50px;
+    left:100px;
+}
+#box2{
+    width:200px;
+    height:200px;
+    background-color:rgb(53, 39, 237);
+    position:fixed;
+    right:0px;
+    bottom:0px;
+}
+#box3{
+    width:150px;
+    height:150px;
+    background-color:rgb(244, 31, 31);
+    border-radius:170px;
+    position:absolute;
+    left:26px;
+    top:26px;
+}
+#box4{
+    width:100px;
+    height:100px;
+    background-color:rgb(231, 83, 231);
+    border-radius:170px;
+    position:absolute;
+    left:50px;
+    top:50px;
+}

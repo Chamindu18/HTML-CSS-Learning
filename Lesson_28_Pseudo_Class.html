@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo Class in HTML</title>
+        <link rel="stylesheet" href="Lesson_28_Pseudo_Class_StyleSheet.css">
+        <link rel="stylesheet" href="Lesson_30_Pagination_StyleSheet.css">
+    </head>
+
+    <body>
+
+        <!-- pseudo class = keywords added to a selector
+                            modify the behavior of an element -->
+
+        <!--a:link = before the user has clicked the link
+            a:visited = after the link had been clicked
+            a:hover = when mouse move over the link
+            a:active = when link is clicked-->
+        
+        <a href="https://www.nsbm.ac.lk/">NSBM</a>
+
+        <!-- li:not(:hover) any thing not in this class-->
+        <!-- li:nth-child() we can specify a element -->
+        <ul>
+            <li>This is #1</li>
+            <li>This is #2</li>
+            <li>This is #3</li>
+            <li>This is #4</li>
+            <li>This is #5</li>
+            <li>This is #6</li>
+            <li>This is #7</li>
+            <li>This is #8</li>
+            <li>This is #9</li>
+        </ul>
+
+        <!-- when we hover over 'hover here', 'hello' will appear-->
+        <div id="greeting">Hover Here
+            <p>Hello</p>
+
+        </div>
+
+        <br>
+
+
+        <!-- This is a part of Lesson 30 Pagination -->
+
+        <div class="pagination">
+            <a href="Lesson_29_Pseudo_Elements.html"><</a>
+            <a href="Lesson_30_Pagination.html">1</a>
+            <a href="Lesson_29_Pseudo_Elements.html">2</a>
+            <a href="Lesson_28_Pseudo_Class.html" class="active">3</a>
+            <a href="Lesson_27_Combinators.html">4</a>
+            <a href="Lesson_26_Background_Images.html">5</a>
+            <a href="Lesson_27_Combinators.html">></a>
+        </div>
+
+    </body>
+</html>

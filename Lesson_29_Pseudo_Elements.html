@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo Elements in HTML</title>
+        <link rel="stylesheet" href="Lesson_29_Pseudo_Elements_StyleSheet.css">
+        <link rel="stylesheet" href="Lesson_30_Pagination_StyleSheet.css">
+    </head>
+
+    <body>
+
+        <!-- pseudo element = keyword added after a selector that's used
+                                to style a specific parts of an element
+                                
+                                selector::pseudo-element -->
+
+        <!-- h1::first-letter{}  to change the first letter-->
+        <!-- p::fisrt-line{} to change the first line in paragraph-->
+        <!-- p::selection{} to change anything selected with the mouse-->
+        <h1>Hello</h1>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Libero, dolorem sed maxime quaerat facere nobis totam, 
+            beatae error adipisci tempore nihil quibusdam iste. 
+            Praesentium error cupiditate voluptatibus rerum excepturi 
+            nam.</p>
+        
+        <!-- before & after pseudo elements used to add something before & after the selected elements -->
+        <!--#fruit li::before{} add spmething before the list item-->
+        <!-- content:"" to add emojis (win+;)-->
+        <!-- #apple::after{} add something after this id -->
+        <!-- #fruit li::marker{
+                    conternt:"";
+        } change the marker of the list -->
+        <ul id="fruit">
+            <li id="apple">apple</li>
+            <li id="orange">orange</li>
+            <li id="banana">banana</li>
+        </ul>
+
+
+        <!-- This is a part of Lesson 30 Pagination -->
+
+        <div class="pagination">
+            <a href="Lesson_30_Pagination.html"><</a>
+            <a href="Lesson_30_Pagination.html">1</a>
+            <a href="Lesson_29_Pseudo_Elements.html" class="active">2</a>
+            <a href="Lesson_28_Pseudo_Class.html">3</a>
+            <a href="Lesson_27_Combinators.html">4</a>
+            <a href="Lesson_26_Background_Images.html">5</a>
+            <a href="Lesson_28_Pseudo_Class.html">></a>
+        </div>
+    </body>
+</html>

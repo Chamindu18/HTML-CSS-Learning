@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinators in HTML</title>
+        <link rel="stylesheet" href="Lesson_27_Combinators_StyleSheet.css">
+        <link rel="stylesheet" href="Lesson_30_Pagination_StyleSheet.css">
+    </head>
+
+    <body>
+
+        <!-- combinators = explains the relationship between listed
+                            selectors
+                              (a space)  =   decendant
+                              > =   child
+                              ~ =   general sibling
+                              + =   adjacent sibling  -->
+        
+        <!-- div > p
+         CSS will be added to any paragraphs found within this div-->
+
+        <!-- container p (decendant)-->
+
+        <div id="container1">
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div>
+                <p>This is #3</p>
+            </div>
+        </div>
+
+        <p>This is #4</p>
+        <p>This is #5</p>
+
+        <!-- container2 > p-->
+        <div id="container2">
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div>
+                <p>This is #3</p>
+            </div>
+        </div>
+
+        <p>This is #4</p>
+        <p>This is #5</p>
+
+        <!-- This is a part of Lesson 30 Pagination -->
+
+        <div class="pagination">
+            <a href="Lesson_28_Pseudo_Class.html"><</a>
+            <a href="Lesson_30_Pagination.html">1</a>
+            <a href="Lesson_29_Pseudo_Elements.html">2</a>
+            <a href="Lesson_28_Pseudo_Class.html">3</a>
+            <a href="Lesson_27_Combinators.html" class="active">4</a>
+            <a href="Lesson_26_Background_Images.html">5</a>
+            <a href="Lesson_26_Background_Images.html">></a>
+        </div>
+
+    </body>
+</html>

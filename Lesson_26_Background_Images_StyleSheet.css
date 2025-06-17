@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/gojo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+h1{
+    color:green;
+}
+p{
+    color:white;
+}
